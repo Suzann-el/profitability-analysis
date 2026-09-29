@@ -4,7 +4,7 @@ Projet de data science orienté **analyse financière** : construire un entrepô
 réel (AdventureWorks, Microsoft, licence MIT), décomposer la marge par effet Prix/Volume/Mix, identifier les
 références et revendeurs qui détruisent de la valeur, et simuler des leviers correctifs.
 
-> **Question business** : où se perd la marge, pourquoi, et que faire ?
+> **Question business** : où se perd la marge? Pourquoi? Et quelle est la solution?
 
 ## Ce que fait le projet
 
