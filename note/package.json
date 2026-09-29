@@ -1,0 +1,7 @@
+{
+  "name": "profit-note",
+  "private": true,
+  "description": "Génère la note de synthèse Word à partir de reports/results.json",
+  "scripts": { "build": "node build_note.js" },
+  "dependencies": { "docx": "^9.0.0" }
+}

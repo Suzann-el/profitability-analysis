@@ -1,0 +1,26 @@
+# données (non redistribuables / trop lourdes)
+data/raw/
+data/*.csv
+
+# artefacts Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# environnements
+.venv/
+venv/
+.env
+
+# sorties régénérables
+reports/figures/
+reports/results.json
+reports/note_synthese.pdf
+exports/
+
+# OS
+.DS_Store
+Thumbs.db

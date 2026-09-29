@@ -1,0 +1,50 @@
+{
+  "FactResellerSales": {
+    "bytes": 13953049,
+    "sha256": "d682b163017d95a7c3a7e026ecfd909a09f21b4c43750a844a5ce3dea4d1e274"
+  },
+  "FactInternetSales": {
+    "bytes": 11726880,
+    "sha256": "0f87171a41f56a40d7f5f6261286e3dde83c88178fff5d55a36636e6150ed3be"
+  },
+  "DimProduct": {
+    "bytes": 9303851,
+    "sha256": "8e06a201098caef67bf6e38a93042738329d9fba5dac0f3dedb3dffbdac5c4f5"
+  },
+  "DimProductSubcategory": {
+    "bytes": 1546,
+    "sha256": "4496a2e75fc0279f80acb8b68a8a4e68f88b24271973f4a457e30e1a96cc1f90"
+  },
+  "DimProductCategory": {
+    "bytes": 130,
+    "sha256": "1caaa9b3d7fcc7f238b1216115a502caaad5b9ca9ca035df098db515393c069d"
+  },
+  "DimDate": {
+    "bytes": 353497,
+    "sha256": "1be7b27194b4b5dae6fb3d619d81c34c0757a748be6381e5d765c42c5db132f8"
+  },
+  "DimReseller": {
+    "bytes": 119137,
+    "sha256": "676cb16ab4c6855da557f776ff82b0dbac19fe634b7914663c1146b53a58145a"
+  },
+  "DimCustomer": {
+    "bytes": 4462011,
+    "sha256": "548dd1ffefc1419952d777c985a6c216ce32624138ffeb2743b17b9c7964b6fc"
+  },
+  "DimGeography": {
+    "bytes": 56424,
+    "sha256": "65dc2a96a63619a187215290941c19165b0a62541cd545428e169b805fbad685"
+  },
+  "DimSalesTerritory": {
+    "bytes": 878402,
+    "sha256": "24945e074b1eb4d76a3c4e8eb750f12e13eccd20f504ed52951c85dd8e3c1c64"
+  },
+  "DimPromotion": {
+    "bytes": 3997,
+    "sha256": "dc54f4f21557dea85e3cf18e23c23649d71a2b740cdbb12130251a5a361dabec"
+  },
+  "DimCurrency": {
+    "bytes": 2104,
+    "sha256": "9ff911e2d0447204806722e736d74e9686faad7c68b9fe896446ed83264239f6"
+  }
+}
