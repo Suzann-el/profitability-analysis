@@ -40,7 +40,7 @@ pytest tests/                            # 116 tests + 20 mutants
 Jeu de démonstration fictif : ventes B2B (Revendeurs) et B2C (Internet) de matériel sportif, décembre 2010 – janvier 2014.
 
 ```bash
-python scripts/download_data.py   # télécharge depuis GitHub, vérifie les empreintes SHA-256
+python scripts/download_data.py   
 ```
 
 > Un canal à marge négative sur un jeu de démonstration est atypique d'une entreprise réelle : c'est une
@@ -96,7 +96,7 @@ tests/
   test_outputs.py          JSON, graphiques, dashboard autonome, exports sans données personnelles, note Word
 ```
 
-## Choix méthodologiques (à savoir défendre en entretien)
+## Choix méthodologiques 
 
 - **SQL d'abord** : toute la logique métier (PVM, Pareto, remises) est en SQL DuckDB, lisible et auditable.
   Python orchestre, ne recalcule pas.
@@ -110,13 +110,13 @@ tests/
 - **Deux fenêtres de 12 mois** (déc. → nov.) alignées sur la dernière date des ventes Revendeurs (29/11/2013) :
   comparer des années civiles 2012 et 2013 biaiserait la comparaison (canal Revendeurs incomplet en 2013).
 - **Marge brute au coût standard** : le coût inclut des frais généraux affectés ; ce n'est pas une marge
-  de contribution. Mentionné explicitement dans les limites de chaque livrable.
+  de contribution.
 - **Simulations avec hypothèses explicites** : l'élasticité et la part de coût évitable ne sont pas dans
   les données — les simulations exposent les bornes, pas des prévisions.
 - **20 mutants, 20/20 détectés** : bugs injectés dans le SQL et le Python (signe du mix PVM inversé,
   seuil ABC à 90 % au lieu de 80 %, coût évité oublié dans la hausse de prix, etc.) — tous détectés.
 
-## Présenter ce projet en entretien
+
 
 > Analyse de rentabilité sur AdventureWorks (données réelles Microsoft, licence MIT) : entrepôt DuckDB,
 > pont PVM décomposant +2 M$ de variation de marge en 7 effets, Pareto montrant que 20 % des références
